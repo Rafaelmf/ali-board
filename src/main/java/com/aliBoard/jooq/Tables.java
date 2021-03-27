@@ -4,10 +4,7 @@
 package com.aliBoard.jooq;
 
 
-import com.aliBoard.jooq.tables.Movie;
-import com.aliBoard.jooq.tables.MovieGenre;
-import com.aliBoard.jooq.tables.MovieRelGenre;
-import com.aliBoard.jooq.tables.UserProfile;
+import com.aliBoard.jooq.tables.Company;
 
 
 /**
@@ -17,22 +14,7 @@ import com.aliBoard.jooq.tables.UserProfile;
 public class Tables {
 
     /**
-     * The table <code>public.movie</code>.
+     * The table <code>public.company</code>.
      */
-    public static final Movie MOVIE = Movie.MOVIE;
-
-    /**
-     * The table <code>public.movie_genre</code>.
-     */
-    public static final MovieGenre MOVIE_GENRE = MovieGenre.MOVIE_GENRE;
-
-    /**
-     * The table <code>public.movie_rel_genre</code>.
-     */
-    public static final MovieRelGenre MOVIE_REL_GENRE = MovieRelGenre.MOVIE_REL_GENRE;
-
-    /**
-     * The table <code>public.user_profile</code>.
-     */
-    public static final UserProfile USER_PROFILE = UserProfile.USER_PROFILE;
+    public static final Company COMPANY = Company.COMPANY;
 }

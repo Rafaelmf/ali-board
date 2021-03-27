@@ -4,10 +4,7 @@
 package com.aliBoard.jooq;
 
 
-import com.aliBoard.jooq.tables.Movie;
-import com.aliBoard.jooq.tables.MovieGenre;
-import com.aliBoard.jooq.tables.MovieRelGenre;
-import com.aliBoard.jooq.tables.UserProfile;
+import com.aliBoard.jooq.tables.Company;
 
 import java.util.Arrays;
 import java.util.List;
@@ -32,24 +29,9 @@ public class Public extends SchemaImpl {
     public static final Public PUBLIC = new Public();
 
     /**
-     * The table <code>public.movie</code>.
+     * The table <code>public.company</code>.
      */
-    public final Movie MOVIE = Movie.MOVIE;
-
-    /**
-     * The table <code>public.movie_genre</code>.
-     */
-    public final MovieGenre MOVIE_GENRE = MovieGenre.MOVIE_GENRE;
-
-    /**
-     * The table <code>public.movie_rel_genre</code>.
-     */
-    public final MovieRelGenre MOVIE_REL_GENRE = MovieRelGenre.MOVIE_REL_GENRE;
-
-    /**
-     * The table <code>public.user_profile</code>.
-     */
-    public final UserProfile USER_PROFILE = UserProfile.USER_PROFILE;
+    public final Company COMPANY = Company.COMPANY;
 
     /**
      * No further instances allowed
@@ -67,18 +49,12 @@ public class Public extends SchemaImpl {
     @Override
     public final List<Sequence<?>> getSequences() {
         return Arrays.<Sequence<?>>asList(
-            Sequences.MOVIE_GENRE_ID_SEQ,
-            Sequences.MOVIE_ID_SEQ,
-            Sequences.MOVIE_REL_GENRE_ID_SEQ,
-            Sequences.USER_PROFILE_ID_SEQ);
+            Sequences.COMPANY_ID_SEQ);
     }
 
     @Override
     public final List<Table<?>> getTables() {
         return Arrays.<Table<?>>asList(
-            Movie.MOVIE,
-            MovieGenre.MOVIE_GENRE,
-            MovieRelGenre.MOVIE_REL_GENRE,
-            UserProfile.USER_PROFILE);
+            Company.COMPANY);
     }
 }

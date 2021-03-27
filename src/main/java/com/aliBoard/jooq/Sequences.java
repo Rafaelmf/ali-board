@@ -16,22 +16,7 @@ import org.jooq.impl.SQLDataType;
 public class Sequences {
 
     /**
-     * The sequence <code>public.movie_genre_id_seq</code>
+     * The sequence <code>public.company_id_seq</code>
      */
-    public static final Sequence<Integer> MOVIE_GENRE_ID_SEQ = Internal.createSequence("movie_genre_id_seq", Public.PUBLIC, SQLDataType.INTEGER.nullable(false), null, null, null, null, false, null);
-
-    /**
-     * The sequence <code>public.movie_id_seq</code>
-     */
-    public static final Sequence<Integer> MOVIE_ID_SEQ = Internal.createSequence("movie_id_seq", Public.PUBLIC, SQLDataType.INTEGER.nullable(false), null, null, null, null, false, null);
-
-    /**
-     * The sequence <code>public.movie_rel_genre_id_seq</code>
-     */
-    public static final Sequence<Integer> MOVIE_REL_GENRE_ID_SEQ = Internal.createSequence("movie_rel_genre_id_seq", Public.PUBLIC, SQLDataType.INTEGER.nullable(false), null, null, null, null, false, null);
-
-    /**
-     * The sequence <code>public.user_profile_id_seq</code>
-     */
-    public static final Sequence<Integer> USER_PROFILE_ID_SEQ = Internal.createSequence("user_profile_id_seq", Public.PUBLIC, SQLDataType.INTEGER.nullable(false), null, null, null, null, false, null);
+    public static final Sequence<Integer> COMPANY_ID_SEQ = Internal.createSequence("company_id_seq", Public.PUBLIC, SQLDataType.INTEGER.nullable(false), null, null, null, null, false, null);
 }

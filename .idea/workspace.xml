@@ -1,13 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="876e8c54-a721-483c-a579-f5f651821663" name="Default Changelist" comment="" />
+    <list default="true" id="876e8c54-a721-483c-a579-f5f651821663" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliBoard/config/JOOQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aliBoard/config/JOOQConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliBoard/controllers/MovieController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliBoard/dao/MovieDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliBoard/models/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliBoard/services/MovieService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliBoard/services/jsonData.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V0.1__Create_Movie_Table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V0.1__Create_Company_Table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V0.2__Create_User_Profile_Table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V0.3__Create_Movie_Categories_Table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/blackFlix/BlackFlixApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/blackFlix/config/JOOQConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/blackFlix/controllers/MovieController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/blackFlix/controllers/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/blackFlix/dao/MovieDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/blackFlix/dao/UserDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/blackFlix/jooq/DefaultCatalog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/blackFlix/jooq/Keys.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/blackFlix/jooq/Public.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/blackFlix/jooq/Sequences.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/blackFlix/jooq/Tables.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/blackFlix/jooq/enums/Genre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/blackFlix/jooq/enums/Payment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/blackFlix/jooq/enums/ProfileStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/blackFlix/jooq/tables/Movie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/blackFlix/jooq/tables/MovieGenre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/blackFlix/jooq/tables/MovieRelGenre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/blackFlix/jooq/tables/UserProfile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/blackFlix/jooq/tables/records/MovieGenreRecord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/blackFlix/jooq/tables/records/MovieRecord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/blackFlix/jooq/tables/records/MovieRelGenreRecord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/blackFlix/jooq/tables/records/UserProfileRecord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/blackFlix/models/Movie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/blackFlix/models/UserProfile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/blackFlix/services/MovieService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/blackFlix/services/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V0.1__Create_Movie_Table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V0.2__Create_User_Profile_Table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V0.3__Create_Movie_Categories_Table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/blackFlix/BackFlixApplicationTests.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1qM0MzJKPp5caoIVnIGOoipKim3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,9 +63,36 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.JOOQConfig">
+    <configuration name="AliBoardApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aliBoard.AliBoardApplication" />
+      <module name="aliBoard" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aliBoard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JOOQConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aliBoard.config.JOOQConfig" />
+      <module name="aliBoard" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aliBoard.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="aliBoard" />
       <option name="VM_PARAMETERS" />
@@ -65,6 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JOOQConfig" />
+        <item itemvalue="Application.AliBoardApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -80,6 +161,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="439" y="146" width="524" height="510" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1616876240440">
+      <screen x="46" y="27" width="1320" height="741" />
+    </state>
+    <state x="439" y="146" width="524" height="510" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/46.27.1320.741@46.27.1320.741" timestamp="1616876240440" />
+    <state width="1274" height="162" key="GridCell.Tab.0.bottom" timestamp="1616876274583">
+      <screen x="46" y="27" width="1320" height="741" />
+    </state>
+    <state width="1274" height="162" key="GridCell.Tab.0.bottom/46.27.1320.741@46.27.1320.741" timestamp="1616876274583" />
+    <state width="1274" height="162" key="GridCell.Tab.0.center" timestamp="1616876274583">
+      <screen x="46" y="27" width="1320" height="741" />
+    </state>
+    <state width="1274" height="162" key="GridCell.Tab.0.center/46.27.1320.741@46.27.1320.741" timestamp="1616876274583" />
+    <state width="1274" height="162" key="GridCell.Tab.0.left" timestamp="1616876274582">
+      <screen x="46" y="27" width="1320" height="741" />
+    </state>
+    <state width="1274" height="162" key="GridCell.Tab.0.left/46.27.1320.741@46.27.1320.741" timestamp="1616876274582" />
+    <state width="1274" height="162" key="GridCell.Tab.0.right" timestamp="1616876274583">
+      <screen x="46" y="27" width="1320" height="741" />
+    </state>
+    <state width="1274" height="162" key="GridCell.Tab.0.right/46.27.1320.741@46.27.1320.741" timestamp="1616876274583" />
     <state x="354" y="128" width="703" height="538" key="find.popup" timestamp="1616874315998">
       <screen x="46" y="27" width="1320" height="741" />
     </state>

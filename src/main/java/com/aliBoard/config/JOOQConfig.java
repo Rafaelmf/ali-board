@@ -10,7 +10,7 @@ public class JOOQConfig {
                         .withDriver("org.postgresql.Driver")
                         .withUrl("jdbc:postgresql://localhost:5432/postgres")
                         .withUser("postgres")
-                        .withPassword("admin"))
+                        .withPassword("password"))
                 .withGenerator(new Generator()
                         .withDatabase(new Database()
                                 .withName("org.jooq.meta.postgres.PostgresDatabase")

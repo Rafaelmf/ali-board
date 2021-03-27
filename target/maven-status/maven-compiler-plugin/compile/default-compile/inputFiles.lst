@@ -1,0 +1,10 @@
+/home/rafael/Repo/backFlix/src/main/java/com/blackFlix/jooq/DefaultCatalog.java
+/home/rafael/Repo/backFlix/src/main/java/com/backFlix/BackFlixApplication.java
+/home/rafael/Repo/backFlix/src/main/java/com/blackFlix/jooq/Indexes.java
+/home/rafael/Repo/backFlix/src/main/java/com/backFlix/controller/MovieController.java
+/home/rafael/Repo/backFlix/src/main/java/com/blackFlix/jooq/Keys.java
+/home/rafael/Repo/backFlix/src/main/java/com/blackFlix/jooq/tables/FlywaySchemaHistory.java
+/home/rafael/Repo/backFlix/src/main/java/com/blackFlix/jooq/Tables.java
+/home/rafael/Repo/backFlix/src/main/java/com/blackFlix/jooq/Public.java
+/home/rafael/Repo/backFlix/src/main/java/com/blackFlix/jooq/tables/pojos/FlywaySchemaHistory.java
+/home/rafael/Repo/backFlix/src/main/java/com/blackFlix/jooq/tables/records/FlywaySchemaHistoryRecord.java
